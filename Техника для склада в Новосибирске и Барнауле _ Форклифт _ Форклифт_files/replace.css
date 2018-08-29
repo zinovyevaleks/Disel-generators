@@ -1,0 +1,243 @@
+.red {color:red;}
+.grey {color:grey;}
+
+/*.intro .thumbs a {background-image:url("/images/v2/intro-thumbs5.png");}
+		.intro .thumbs a.thumb2 {width:121px;background-position:0 0;}
+		.intro .thumbs a.thumb2:hover, .intro .thumbs a.thumb2.activeSlide {background-position:0 -59px;}
+		
+		.intro .thumbs a.thumb1 {width:122px;background-position:-121px 0;}
+		.intro .thumbs a.thumb1:hover, .intro .thumbs a.thumb1.activeSlide {background-position:-121px -59px;}
+		
+		.intro .thumbs a.thumb3 {width:105px;background-position:-244px 0;}
+		.intro .thumbs a.thumb3:hover, .intro .thumbs a.thumb3.activeSlide {background-position:-244px -59px;}
+		
+		.intro .thumbs a.thumb5 {width:77px;background-position:-349px 0;}
+		.intro .thumbs a.thumb5:hover, .intro .thumbs a.thumb5.activeSlide {background-position:-349px -59px;}
+		
+		.intro .thumbs a.thumb6 {width:113px;background-position:-427px 0;}
+		.intro .thumbs a.thumb6:hover, .intro .thumbs a.thumb6.activeSlide {background-position:-427px -59px;}
+		
+		.intro .thumbs a.thumb4 {width:57px;background-position:-540px 0;}
+		.intro .thumbs a.thumb4:hover, .intro .thumbs a.thumb4.activeSlide {background-position:-540px -59px;}*/
+.intro .slides h2{margin-left:10px;}
+.intro .slides p{margin-left:10px;margin-top:5px;}
+.intro .slides span.intro_header{color:black;font-size:16px;}
+
+/*-------------------BOMAG----------------------------------*/
+
+
+	body.inside-bg {background:#fff url("/images/v2/inside-bg-bomag.jpg") no-repeat 50% 0 !important;}
+	body.inside-bg .inside-back{background:none !important;}
+/*	body.inside-bg .header {background:#ffd800 !important;}
+	body.inside-bg .topMenu {background:url("/images/v2/topmenu_black.png") !important;} 
+	body.inside-bg .topMenu ul{background:#100E1A !important;}
+	body.inside-bg .topMenu>li:hover>span{background:black !important;}
+	body.inside-bg .leftNav{background:#100E1A !important;}
+	body.inside-bg .leftNav li strong a{color:#ffd800 !important;} */
+
+	
+/*-----------------------------------------------------------*/
+
+
+/*-------------------HAWKER----------------------------------*/
+	body.inside-hw {background:#fff url("/images/v2/inside-hw-hawker.jpg") no-repeat 50% 0 !important;}
+	body.inside-hw .inside-back{background:none !important;}
+/*-----------------------------------------------------------*/
+
+
+.nc_nc_search {top:75px;position: absolute;left:50px;z-index:2;}
+.nc_nc_search input[name="search_query"] {border-radius:4px;}
+
+.contacts .phone span {font-size:14px !important; font-weight:bold;}
+.contacts .phone {line-height:16px !important;}
+.contacts {top:0px;}
+/*.contacts {top:0px !important;font-size:12px;right:0px !important;}*/
+
+.ny_additional{display:none;}
+
+.smenu {top: 89px;left: 0px;position:absolute;z-index:2;width:500px;height:24px;}
+.smenu a {display:block;color:white !important;height:24px;margin-right:2px;float:left;font-size:11px;text-align:center;padding-top:3px;text-decoration:none;}
+.smenu a:hover {color:yellow !important;}
+
+.smenu a.smenu_active{cursor:default;color:yellow !important;}
+
+#smenu_forklift_link{width:80px;background:url(/images/v2/smenu_forklift.jpg) 0 0 no-repeat;}
+#smenu_forklift_link.smenu_active,#smenu_forklift_link:hover{background:url(/images/v2/smenu_forklift_a.jpg) 0 0 no-repeat;}
+
+#smenu_service_link{width:110px;background:url(/images/v2/smenu_service.jpg) 0 0 no-repeat;}
+#smenu_service_link.smenu_active,#smenu_service_link:hover{background:url(/images/v2/smenu_service_a.jpg) 0 0 no-repeat;}
+
+#smenu_market_link{width:110px;background:url(/images/v2/smenu_market.jpg) 0 0 no-repeat;}
+#smenu_market_link.smenu_active, #smenu_market_link:hover{background:url(/images/v2/smenu_market_a.jpg) 0 0 no-repeat;}
+
+#smenu_tc_link{width:101px;background:url(/images/v2/smenu_tc.jpg) 0 0 no-repeat;}
+#smenu_tc_link.smenu_active, #smenu_tc_link:hover{background:url(/images/v2/smenu_tc_a.jpg) 0 0 no-repeat;}
+
+
+.ShowPhoto img{border-radius:8px; border:1px solid rgb(194, 194, 194) !important;}
+ul.news img{border-radius:6px; border:1px solid rgb(230, 230, 230) !important;}
+.ShowPhoto img:hover{
+	box-shadow:0 0 10px rgba(0,0,0,.45);
+	-moz-transition:box-shadow .1s ease;
+	-webkit-transition:box-shadow .1s ease;
+	-o-transition:box-shadow .1s ease;
+	-ms-transition:box-shadow .1s ease;
+	transition:box-shadow .1s ease;
+	border:1px solid rgb(4, 4, 162) !important;
+}
+
+/*********************** BOMAG ********************************/
+
+p.bomag a.newButton{
+	font-size:12px !important;
+	padding-right:10px !important;
+	margin-bottom:10px !important;
+	padding-left:10px !important;
+	padding-right:10px !important;
+}
+p.bomag a.newButton.active{background: #FFB800 !important;color:black !important;cursor:default !important;}
+.catalog_thumbs {
+	position:relative !important;
+	overflow:hidden !important;
+	margin-top:20px !important;
+}
+.catalog_thumbs a.ShowPhoto, .catalog_thumbs a.ShowVideoLink{
+	display:block !important;
+	float:left !important;
+	width:96px !important;
+	height:96px !important;
+	margin:10px 10px !important;
+}
+
+table.catalog.bomag {margin-top:20px !important;}
+
+
+.ShowPhoto a.ShowVideoLink{
+	overflow:visible !important;
+}
+/**********************************************************/
+
+
+
+.fl-header-h2 {
+	color: #233e9a;
+	font-size: 16px !important;
+	font-weight: bold !important;
+	margin-bottom: 5px !important;
+    padding:10px 0 0 0 !important;
+}
+
+
+
+
+.news_full img{width:96px;}
+
+.placeholder{
+	color:#a9a9a9 !important;
+}
+
+/* Изменения в FAQ */
+.nc_guestbook div.nc_datetime{
+	/*float:right;
+	margin-right:25px;*/
+	margin-bottom:1em;
+	line-height:14px;
+	color:grey;
+}
+
+.nc_guestbook .nc_answer,
+.nc_guestbook .show_more{
+	margin-left:40px;
+}
+
+.nc_guestbook .nc_answer a{
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.nc_guestbook .nc_answer a:hover{
+	text-decoration:none;
+}
+
+.nc_guestbook div.nc_datetime,
+.nc_guestbook span.nc_author,
+.nc_guestbook span.nc_email{
+	font-size:12px;
+}
+
+/*   Search Menu    */
+.header .search {border:1px solid #b5b5b5; border-radius:4px;width:190px; height:22px;position:absolute;z-index:2;left:50px;top:70px;}
+.header .search .pole {float:left; height:22px; background:none; width:150px; padding:0 5px; border:none;}
+.header .search .btn {float:right; border:none; background:url(/images/v3/img/ico-search.png) 0 0 no-repeat; width:13px; height:14px; margin:5px; cursor:pointer}
+.content #nc_search_query {
+	font-size:20px;
+	width:400px;
+	border-radius:4px !important;
+	border:1px solid rgb(182, 182, 182);
+	padding-left: 6px;
+}
+
+.content .nc_search .newButton.moreLink{
+	margin-left:20px !important;
+	padding:0px !important;
+	background:#1f53a5 url("/images/v2/more-link.png") repeat-x 0 100% !important;
+	border-radius:5px;
+}
+
+.content .nc_search_input{
+	margin-bottom:2em;
+}
+
+/*   Новое меню Техники - добавил Березин А.С.   */
+
+	.kt5m_techmenu_block_v2 span {
+		float: left;
+		color: white;
+		margin-top: 15px;
+		margin-left: 4px;
+	}
+
+	.kt5m_techmenu_block_v2 div {
+		float: left;
+		background: url('http://komatsusib.ru/images/v2/kt5m_new_menu.png');
+		width: 58px;
+		height: 42px;
+	}
+
+	.kt5m_techmenu_block_v2 {
+		display: block;
+		width: 205px;
+		height: 50px;
+		overflow: hidden;
+		position:relative;
+	}
+
+	.kt5m_techmenu_block_v2:hover div {
+		background-position-x: 58px;
+	}
+
+	.kt5m_techmenu_block_v2:hover span {
+		color: #ffd400;
+	}
+	
+	
+	
+.myfield,
+ .mytextarea{
+    font-family: Roboto Condensed, Segoe UI, sans-serif;
+    border:1px solid #aaa;
+    border-radius:5px;
+    padding-left:5px;
+    padding-right:5px;
+ }
+
+ .myfield{
+    height: 35px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 380px;
+ }
+
+ .mytextarea{
+   font-size: 16px;
+ }

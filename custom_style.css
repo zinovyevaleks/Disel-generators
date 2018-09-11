@@ -66,12 +66,38 @@
     margin-top: 50px;
 }
 
+.catalog .container {
+    padding: 0 0 0 0px;
+}
+
+.controls {
+    height: 50px;
+    width: 923px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d4b7c;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.controls label{
+    margin-right: 20px;
+    margin-left: 36px;
+}
+
+.controls .filter {
+    width: 130px;
+    height: 21px;
+
+}
+
 .container .mix {
     display: none;
     
 }
 
-.category-1{
+/* .category-1{
     border: 1px solid red;
 }
 
@@ -84,7 +110,7 @@
 }
 .category-4{
     border: 1px solid yellow;
-}
+} */
 
 .item {
     display: flex;
@@ -95,6 +121,11 @@
 .item img {
     width: 25rem;
     height: 15rem;
+    padding: 0px 50px 0px;
+}
+
+.descriptiom {
+    padding-right: 6px;
 }
 
 /* Карусель со слайдами */
@@ -122,7 +153,8 @@
     width: 50px;
     height: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    background: url("img/arrow-prev.png") 50% 50%/20px no-repeat;
+    background: url("img/baseline-keyboard_arrow_left-24px.svg") 50% 50%/40px no-repeat;
+    
   }
 
   .carousel-wrapper .carousel-item .arrow.arrow-prev {

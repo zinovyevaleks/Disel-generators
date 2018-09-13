@@ -83,7 +83,7 @@
 
 .controls label{
     margin-right: 20px;
-    margin-left: 36px;
+    margin-left: 20px;
 }
 
 .controls .filter {
@@ -119,13 +119,13 @@
 }
 
 .item img {
-    width: 25rem;
+    width: 20rem;
     height: 15rem;
     padding: 0px 50px 0px;
 }
 
-.descriptiom {
-    padding-right: 6px;
+.description {
+    padding-right: 30px;
 }
 
 /* Карусель со слайдами */
